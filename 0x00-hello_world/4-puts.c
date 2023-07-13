@@ -1,7 +1,8 @@
 #include <stdio.h>
-
-/* prints a plain set of characters to stdout */
-
+/**
+ * main - main entry point
+ * Return: return 0 for success
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
