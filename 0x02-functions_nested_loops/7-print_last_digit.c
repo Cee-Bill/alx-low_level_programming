@@ -4,7 +4,6 @@
  * @num: expected integer value
  * Return: r; the last didgit
  */
-
 int print_last_digit(int num)
 {
 	int r;
@@ -14,6 +13,12 @@ int print_last_digit(int num)
 	if (r < 0)
 	{
 		r *= -1;
+		_putchar(r + '0');
+		return (r);
 	}
-	return (r);
+	else
+	{
+		_putchar(r + '0');
+		return (r);
+	}
 }
