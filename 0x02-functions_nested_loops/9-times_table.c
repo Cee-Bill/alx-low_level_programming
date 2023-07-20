@@ -14,27 +14,29 @@ void times_table(void)
 		{
 			retval = a * b;
 
-			if (retval == 0 && b == 0)
+			if ((retval == 0 && b == 0) || (retval == 0 && a == 0))
 			{
 				_putchar(retval + '0');
 			}
-
-			_putchar(44);
-			_putchar(32);
-
-			if (retval <= 9)
+			if (retval != 0)
 			{
-				_putchar(' ');
-				_putchar(retval + '0');
-			}
+				_putchar(44);
+				_putchar(32);
 
-			if (retval > 9)
-			{
-				i = retval / 10;
-				j = retval % 10;
+				if (retval <= 9)
+				{
+					_putchar(' ');
+					_putchar(retval + '0');
+				}
 
-				_putchar(i + '0');
-				_putchar(j + '0');
+				if (retval > 9)
+				{
+					i = retval / 10;
+					j = retval % 10;
+
+					_putchar(i + '0');
+					_putchar(j + '0');
+				}
 			}
 		}
 		_putchar('\n');
