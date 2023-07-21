@@ -2,11 +2,10 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: expected integer
- * @Return: 0 for success
  */
 void print_line(int n)
 {
-	if (!(n <= 0))
+	if (n > 0)
 	{
 		int i;
 
