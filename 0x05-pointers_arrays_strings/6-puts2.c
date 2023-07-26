@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character of a string
- * @c: string to be printed
+ * @str: string to be printed
  * Return: the reversed string
  */
 
