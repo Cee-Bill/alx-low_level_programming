@@ -1,5 +1,1 @@
-##0x00. C - Hello, World
-
-0. Preprocessor: A script that runs a C file through the preprocessor and save
-   the result into another file
-
+##Task 0x07. C - Even more pointers, arrays and strings
