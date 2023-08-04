@@ -2,6 +2,8 @@
 
 /**
  * is_prime_number - checks if a number is a prime
+ * prime_check - preliminary func
+ * @i: int t
  * @n: the numcer to be checked
  * Return: returns 1 if the input integer is a prime number
  * Otherwise, 0
