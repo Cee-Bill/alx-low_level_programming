@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ * atoi - entry
+ * @s: param
+ * Return: integer
+ */
+
+int _atoi(char *s)
+{
+	/**/
+	return (0);
+}
