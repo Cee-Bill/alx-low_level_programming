@@ -18,8 +18,8 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-		add = 0;
-		/*return (0);*/
+		printf("0\n");
+		return (0);
 	}
 
 	for (i = 1; i < argc; i++)
@@ -38,5 +38,5 @@ int main(int argc, char *argv[])
 	/*printf("outloop %d\n", add);*/
 	printf("%d\n", add);
 
-	return (add);
+	return (0);
 }
