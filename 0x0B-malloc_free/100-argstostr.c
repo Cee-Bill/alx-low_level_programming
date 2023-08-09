@@ -24,7 +24,7 @@ char *argstostr(int ac, char **av)
 		counter++;
 	}
 	/*counter += ac;*/
-	strtoprt = malloc(sizeof(char) * (counter + 1));
+	strtoprt = malloc(sizeof(char) * (counter));
 
 	if (strtoprt == NULL)
 		return (NULL);
