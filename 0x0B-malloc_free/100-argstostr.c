@@ -41,7 +41,7 @@ char *argstostr(int ac, char **av)
 		}
 
 		strtoprt[x] = '\n';
-		*x++;
+		x++;
 	}
 	return (strtoprt);
 }
