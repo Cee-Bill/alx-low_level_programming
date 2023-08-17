@@ -4,8 +4,8 @@
 /**
  * array_iterator - executes a function given as a param on each
  * element of an array
- * @array: the array elements to be eexcuted
- * @size: array size
+ * @array: the array of elements to be eexcuted
+ * @size: the array size
  * action: pointer to the function to be used
  *
  * Return: void.
@@ -17,7 +17,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (array && size && action)
 	{
-		for (; i <= size; i++)
+		for (; i < size; i++)
 		{
 			action(array[i]);
 		}
