@@ -3,7 +3,7 @@
 
 /**
  * free_list - frees a list_t list
- * @lis_t: the struct list to be freed;
+ * @head: the struct list to be freed;
  */
 
 void free_list(list_t *head)
