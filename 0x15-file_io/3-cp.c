@@ -74,7 +74,6 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(98);
 		}
-
 		_write = write(f_to, buffer, _read);
 		if (f_to == -1 || _write == -1)
 		{
@@ -83,11 +82,9 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
-
 		_read = read(f_from, buffer, 1024);
 		f_to = open(argv[2], O_WRONLY | O_APPEND);
 	} while (_read > 0);
-
 	free(buffer);
 	close_fd(f_from);
 	close_fd(f_to);
